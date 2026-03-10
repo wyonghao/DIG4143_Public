@@ -1,3 +1,77 @@
+
+真正工作的方法是
+
+Yes — here’s the relevant snippet from ~/.openclaw/openclaw.json:
+
+"agents": {
+"defaults": {
+"workspace": "/home/azureuser/workspace",
+"model": {
+"primary": "openai/gpt-5.2-chat",
+"fallbacks": ["azure/gpt-5.2-chat"]
+}
+},
+"list": [
+{ "id": "main" },
+{
+"id": "teaching",
+"name": "teaching",
+"model": "openai/gpt-5.2-chat",
+"workspace": "/home/azureuser/workspace/agents/teaching",
+"agentDir": "/home/azureuser/.openclaw/agents/teaching/agent"
+},
+{
+"id": "programme",
+"name": "programme",
+"model": "openai/gpt-5.2-chat",
+"workspace": "/home/azureuser/workspace/agents/programme",
+"agentDir": "/home/azureuser/.openclaw/agents/programme/agent"
+}
+]
+}
+
+And this is the rule snippet in agents/teaching/AGENTS.md:
+
+Allowed scope:
+- /home/azureuser/workspace/DIG4143_Public
+- /home/azureuser/workspace/DIG4143Private
+Restrictions:
+- Do NOT operate on BroadcastingCoursePrivate
+
+⚠️ Important: this is policy guidance, not hard filesystem sandboxing.
+If you want hard enforcement, I can set up strict path isolation next.
+
+Perfect — for programme it’s set like this:
+
+Config snippet (~/.openclaw/openclaw.json)
+
+{
+"id": "programme",
+"name": "programme",
+"model": "openai/gpt-5.2-chat",
+"workspace": "/home/azureuser/workspace/agents/programme",
+"agentDir": "/home/azureuser/.openclaw/agents/programme/agent"
+}
+
+Programme rule file (/home/azureuser/workspace/agents/programme/AGENTS.md)
+
+Allowed scope:
+- /home/azureuser/workspace/BroadcastingCoursePrivate
+
+Responsibilities:
+- Apprenticeship compliance (ST0426)
+- EPA risk analysis
+- Skills coach coordination
+- NSS governance
+- Employer liaison risk mapping
+
+Restrictions:
+- Do NOT operate on DIG4143_Public or DIG4143Private
+
+So yes — programme is separated and scoped to BroadcastingCoursePrivate by rule.
+If you want, I can now add a hard guard (preflight path check) so it refuses non-programme paths technically, not just by instruction.
+
+===============================
 很好，这个思路是对的。
 
 你要的不是“某一周的助手”，
