@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local tooling
+.tools/
+tools/
+
+# Generated extracted content
+2026Teaching/signals_extracted/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE local files
+.vscode/
+.idea/
