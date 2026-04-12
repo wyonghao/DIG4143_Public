@@ -27,3 +27,8 @@ nav:
   - Teaching Notes:
       - Why We Use MATLAB: topics/teaching-strategy-matlab-first-year.md
       - MATLAB Signal Visualisation Roadmap: demos/matlab-signal-visualisation-roadmap.md
+  - Admin:
+      - About This Wiki: about.md
+      - Shortcut: home.md
+      - Raw Sources: raw-sources.md
+      - Log: log.md

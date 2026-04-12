@@ -9,7 +9,7 @@ updated: 2026-04-12
 status: active
 ---
 
-[Original tutorial file](../../2026Teaching/Tut%200%20Introduce%20to%20MATLAB%20programming%20and%20Signal.docx)
+Original source: `Tut 0 Introduce to MATLAB programming and Signal.docx`
 
 ## Teaching Aim
 

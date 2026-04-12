@@ -9,7 +9,7 @@ updated: 2026-04-12
 status: active
 ---
 
-[MATLAB file](../../2026Teaching/2%20TransmissionCode/balanced_audio_demo.m)
+MATLAB file: `balanced_audio_demo.m`
 
 ## Teaching Aim
 

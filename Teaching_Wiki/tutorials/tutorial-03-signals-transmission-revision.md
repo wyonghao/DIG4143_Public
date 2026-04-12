@@ -9,9 +9,9 @@ updated: 2026-04-12
 status: active
 ---
 
-[Original tutorial](../../2026Teaching/Tutorial%203%20-%20Signals,%20Transmission.docx)
-
-[Original solutions](../../2026Teaching/Tutorial%203%20-%20Signals,%20Transmission%20-%20SOLUTIONS.docx)
+Original sources:
+- `Tutorial 3 - Signals, Transmission.docx`
+- `Tutorial 3 - Signals, Transmission - SOLUTIONS.docx`
 
 ## Teaching Aim
 

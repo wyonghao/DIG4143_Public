@@ -18,8 +18,7 @@ engineering concepts visible and discussable during lectures and tutorials.
 
 ### RLCG pulse transmission
 
-File:
-[demo_RLCG_transmission.m](../../2026Teaching/1Signal_code/demo_RLCG_transmission.m)
+File: `demo_RLCG_transmission.m`
 
 Use it to show:
 - propagation delay
@@ -34,8 +33,7 @@ What students should notice:
 
 ### RLCG animation
 
-File:
-[demo_RLCG_animation.m](../../2026Teaching/1Signal_code/demo_RLCG_animation.m)
+File: `demo_RLCG_animation.m`
 
 Use it to show:
 - the pulse moving along the line
@@ -44,8 +42,7 @@ Use it to show:
 
 ### Balanced audio demonstration
 
-File:
-[balanced_audio_demo.m](../../2026Teaching/2%20TransmissionCode/balanced_audio_demo.m)
+File: `balanced_audio_demo.m`
 
 Use it to show:
 - common-mode interference

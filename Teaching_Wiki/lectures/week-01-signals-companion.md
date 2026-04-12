@@ -9,7 +9,7 @@ updated: 2026-04-12
 status: active
 ---
 
-[Original enhanced notes](../../2026Teaching/1%20-%20Signals_BB%20Lecture%20Notes%20Enhanced.md)
+Original source: `1 - Signals_BB Lecture Notes Enhanced.md`
 
 ## Teaching Aim
 

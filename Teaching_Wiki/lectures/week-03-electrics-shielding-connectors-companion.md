@@ -9,7 +9,7 @@ updated: 2026-04-12
 status: active
 ---
 
-[Original lecture PDF](../../2026Teaching/3%20-%20Electrics,%20Shielding,%20Connectors_BB_2026.pdf)
+Original source: `3 - Electrics, Shielding, Connectors_BB_2026.pdf`
 
 ## Teaching Aim
 
