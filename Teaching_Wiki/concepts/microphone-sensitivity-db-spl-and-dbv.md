@@ -5,9 +5,12 @@ week: 3
 tags: [microphone, db, dbv, db-spl, sensitivity, sound-pressure, voltage]
 sources: ["3 - Electrics, Shielding, Connectors_BB_2026.pdf"]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-13
 status: active
 ---
+
+Original sources:
+- [3 - Electrics, Shielding, Connectors_BB_2026.pdf](<../assets/sources/3 - Electrics, Shielding, Connectors_BB_2026.pdf>)
 
 ## Teaching Aim
 

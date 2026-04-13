@@ -5,9 +5,13 @@ week: 3
 tags: [balanced-audio, shielding, grounding, phantom-power, xlr, common-mode]
 sources: ["3 - Electrics, Shielding, Connectors_BB_2026.pdf", "balanced_audio_demo.m"]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-13
 status: active
 ---
+
+Original sources:
+- [3 - Electrics, Shielding, Connectors_BB_2026.pdf](<../assets/sources/3 - Electrics, Shielding, Connectors_BB_2026.pdf>)
+- [balanced_audio_demo.m](../assets/sources/balanced_audio_demo.m)
 
 ## Teaching Aim
 

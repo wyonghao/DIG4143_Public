@@ -5,11 +5,14 @@ week: 1
 tags: [signals, channels, bandwidth, noise, matlab, broadcasting]
 sources: ["1 - Signals_BB Lecture Notes Enhanced.md", "1 - Signals_BB_2026.pdf", "1 - Signals_BB Lecture Notes Enhanced.pdf"]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-13
 status: active
 ---
 
-Original source: `1 - Signals_BB Lecture Notes Enhanced.md`
+Original sources:
+- [1 - Signals_BB Lecture Notes Enhanced.md](<../assets/sources/1 - Signals_BB Lecture Notes Enhanced.md>)
+- [1 - Signals_BB_2026.pdf](<../assets/sources/1 - Signals_BB_2026.pdf>)
+- [1 - Signals_BB Lecture Notes Enhanced.pdf](<../assets/sources/1 - Signals_BB Lecture Notes Enhanced.pdf>)
 
 ## Teaching Aim
 

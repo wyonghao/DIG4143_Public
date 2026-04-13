@@ -5,9 +5,14 @@ week: 1
 tags: [signals, noise, distortion, snr, quality]
 sources: ["1 - Signals_BB Lecture Notes Enhanced.md", "demo_RLCG_transmission.m", "balanced_audio_demo.m"]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-13
 status: active
 ---
+
+Original sources:
+- [1 - Signals_BB Lecture Notes Enhanced.md](<../assets/sources/1 - Signals_BB Lecture Notes Enhanced.md>)
+- [demo_RLCG_transmission.m](../assets/sources/demo_RLCG_transmission.m)
+- [balanced_audio_demo.m](../assets/sources/balanced_audio_demo.m)
 
 ## Teaching Aim
 

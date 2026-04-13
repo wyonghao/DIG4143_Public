@@ -5,11 +5,12 @@ week: 3
 tags: [electrics, shielding, grounding, balanced-audio, connectors, phantom-power, sdi, aes3]
 sources: ["3 - Electrics, Shielding, Connectors_BB_2026.pdf"]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-13
 status: active
 ---
 
-Original source: `3 - Electrics, Shielding, Connectors_BB_2026.pdf`
+Original sources:
+- [3 - Electrics, Shielding, Connectors_BB_2026.pdf](<../assets/sources/3 - Electrics, Shielding, Connectors_BB_2026.pdf>)
 
 ## Teaching Aim
 

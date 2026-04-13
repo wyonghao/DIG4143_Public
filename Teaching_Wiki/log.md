@@ -35,3 +35,19 @@ Pages updated:
 Pages updated:
 - demos/balanced-audio-and-ground-loops.md
 - demos/balanced_audio_demo.m
+
+## [2026-04-13] fix | Published downloadable original sources across wiki pages
+Pages updated:
+- lectures/week-01-signals-companion.md
+- lectures/week-03-electrics-shielding-connectors-companion.md
+- tutorials/tutorial-00-matlab-and-signals.md
+- tutorials/tutorial-03-signals-transmission-revision.md
+- concepts/balanced-lines-shielding-and-phantom-power.md
+- concepts/microphone-sensitivity-db-spl-and-dbv.md
+- concepts/signal-noise-and-distortion.md
+- concepts/transmission-line-behaviour.md
+- demos/balanced-audio-and-ground-loops.md
+- demos/matlab-signal-visualisation-roadmap.md
+- demos/microphone-sensitivity-db-demo.md
+- topics/teaching-strategy-matlab-first-year.md
+- assets/sources/

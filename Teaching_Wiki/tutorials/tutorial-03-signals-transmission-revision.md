@@ -5,13 +5,13 @@ week: 3
 tags: [tutorial, noise, dynamic-range, aliasing, transmission, packet-data, networking]
 sources: ["Tutorial 3 - Signals, Transmission.docx", "Tutorial 3 - Signals, Transmission - SOLUTIONS.docx"]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-13
 status: active
 ---
 
 Original sources:
-- `Tutorial 3 - Signals, Transmission.docx`
-- `Tutorial 3 - Signals, Transmission - SOLUTIONS.docx`
+- [Tutorial 3 - Signals, Transmission.docx](<../assets/sources/Tutorial 3 - Signals, Transmission.docx>)
+- [Tutorial 3 - Signals, Transmission - SOLUTIONS.docx](<../assets/sources/Tutorial 3 - Signals, Transmission - SOLUTIONS.docx>)
 
 ## Teaching Aim
 

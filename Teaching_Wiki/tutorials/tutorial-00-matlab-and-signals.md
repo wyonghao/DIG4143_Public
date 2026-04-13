@@ -5,11 +5,12 @@ week: 0
 tags: [tutorial, matlab, signals, plotting]
 sources: ["Tut 0 Introduce to MATLAB programming and Signal.docx"]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-13
 status: active
 ---
 
-Original source: `Tut 0 Introduce to MATLAB programming and Signal.docx`
+Original sources:
+- [Tut 0 Introduce to MATLAB programming and Signal.docx](<../assets/sources/Tut 0 Introduce to MATLAB programming and Signal.docx>)
 
 ## Teaching Aim
 

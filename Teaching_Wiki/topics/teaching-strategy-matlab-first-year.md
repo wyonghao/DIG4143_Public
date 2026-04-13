@@ -5,9 +5,15 @@ week: 0
 tags: [strategy, matlab, teaching, visualisation]
 sources: ["1 - Signals_BB Lecture Notes Enhanced.md", "Tut 0 Introduce to MATLAB programming and Signal.docx", "balanced_audio_demo.m", "demo_RLCG_transmission.m"]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-13
 status: active
 ---
+
+Original sources:
+- [1 - Signals_BB Lecture Notes Enhanced.md](<../assets/sources/1 - Signals_BB Lecture Notes Enhanced.md>)
+- [Tut 0 Introduce to MATLAB programming and Signal.docx](<../assets/sources/Tut 0 Introduce to MATLAB programming and Signal.docx>)
+- [balanced_audio_demo.m](../assets/sources/balanced_audio_demo.m)
+- [demo_RLCG_transmission.m](../assets/sources/demo_RLCG_transmission.m)
 
 ## Why This Page Exists
 

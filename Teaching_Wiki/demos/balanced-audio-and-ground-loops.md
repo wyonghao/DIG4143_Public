@@ -9,7 +9,9 @@ updated: 2026-04-13
 status: active
 ---
 
-[MATLAB file](./balanced_audio_demo.m)
+Original sources:
+- [balanced_audio_demo.m](../assets/sources/balanced_audio_demo.m)
+- [3 - Electrics, Shielding, Connectors_BB_2026.pdf](<../assets/sources/3 - Electrics, Shielding, Connectors_BB_2026.pdf>)
 
 ## Teaching Aim
 

@@ -5,9 +5,14 @@ week: 1
 tags: [transmission, cables, attenuation, delay, reflections, matlab]
 sources: ["demo_RLCG_transmission.m", "demo_RLCG_animation.m", "2 - Transmission Media_DM.pdf"]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-13
 status: active
 ---
+
+Original sources:
+- [demo_RLCG_transmission.m](../assets/sources/demo_RLCG_transmission.m)
+- [demo_RLCG_animation.m](../assets/sources/demo_RLCG_animation.m)
+- [2 - Transmission Media_DM.pdf](<../assets/sources/2 - Transmission Media_DM.pdf>)
 
 ## Teaching Aim
 

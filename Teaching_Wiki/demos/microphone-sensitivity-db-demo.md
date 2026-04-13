@@ -5,9 +5,12 @@ week: 3
 tags: [demo, matlab, microphone, db, dbv, db-spl, sensitivity]
 sources: ["3 - Electrics, Shielding, Connectors_BB_2026.pdf"]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-13
 status: active
 ---
+
+Original sources:
+- [3 - Electrics, Shielding, Connectors_BB_2026.pdf](<../assets/sources/3 - Electrics, Shielding, Connectors_BB_2026.pdf>)
 
 [MATLAB file](./microphone_sensitivity_db_demo.m)
 
