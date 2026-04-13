@@ -30,3 +30,8 @@ Pages created:
 - demos/microphone_sensitivity_db_demo.m
 Pages updated:
 - index.md
+
+## [2026-04-13] fix | Balanced audio demo download link published
+Pages updated:
+- demos/balanced-audio-and-ground-loops.md
+- demos/balanced_audio_demo.m

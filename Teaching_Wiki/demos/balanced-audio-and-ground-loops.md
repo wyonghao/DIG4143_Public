@@ -5,11 +5,11 @@ week: 3
 tags: [demo, matlab, balanced-audio, shielding, ground-loops, phantom-power]
 sources: ["balanced_audio_demo.m", "3 - Electrics, Shielding, Connectors_BB_2026.pdf"]
 created: 2026-04-12
-updated: 2026-04-12
+updated: 2026-04-13
 status: active
 ---
 
-MATLAB file: `balanced_audio_demo.m`
+[MATLAB file](./balanced_audio_demo.m)
 
 ## Teaching Aim
 
