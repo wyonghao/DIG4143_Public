@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Tutorial 00 MATLAB And Signals - DIG4143 Teaching Wiki</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Tutorial 00 MATLAB And Signals";
+        var mkdocs_page_input_path = "tutorials\\tutorial-00-matlab-and-signals.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> DIG4143 Teaching Wiki
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../wiki-index/">Wiki Index</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Week 3</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../lectures/week-03-electrics-shielding-connectors-companion/">Lecture Companion</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../tutorial-03-signals-transmission-revision/">Tutorial Companion</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../demos/balanced-audio-and-ground-loops/">Balanced Audio And Ground Loops</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../concepts/microphone-sensitivity-db-spl-and-dbv/">Microphone Sensitivity</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../demos/microphone-sensitivity-db-demo/">Microphone Demo</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../concepts/balanced-lines-shielding-and-phantom-power/">Balanced Lines</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../concepts/signal-noise-and-distortion/">Signal Noise And Distortion</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../concepts/transmission-line-behaviour/">Transmission Line Behaviour</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Earlier Weeks</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../../lectures/week-01-signals-companion/">Week 1 Signals Companion</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Tutorial 00 MATLAB And Signals</a>
+    <ul class="current">
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Teaching Notes</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../topics/teaching-strategy-matlab-first-year/">Why We Use MATLAB</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../demos/matlab-signal-visualisation-roadmap/">MATLAB Signal Visualisation Roadmap</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Admin</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../about/">About This Wiki</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../home/">Shortcut</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../raw-sources/">Raw Sources</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../log/">Log</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">DIG4143 Teaching Wiki</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Earlier Weeks</li>
+      <li class="breadcrumb-item active">Tutorial 00 MATLAB And Signals</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <p>Original source: <code>Tut 0 Introduce to MATLAB programming and Signal.docx</code></p>
+<h2 id="teaching-aim">Teaching Aim</h2>
+<p>Use MATLAB early to normalise experimentation. Students should see MATLAB as a
+way to inspect signal behaviour, not as a separate programming hurdle.</p>
+<h2 id="role-in-the-module">Role In The Module</h2>
+<p>This tutorial should establish three habits:</p>
+<ul>
+<li>plotting before guessing</li>
+<li>changing one parameter at a time</li>
+<li>explaining what the graph means in engineering terms</li>
+</ul>
+<h2 id="minimum-competencies">Minimum Competencies</h2>
+<p>Students should be able to:</p>
+<ul>
+<li>generate a simple sine wave</li>
+<li>change amplitude, frequency, and sampling step</li>
+<li>create subplots for comparison</li>
+<li>label axes properly</li>
+<li>describe what changed physically, not just visually</li>
+</ul>
+<h2 id="recommended-tutorial-framing">Recommended Tutorial Framing</h2>
+<p>Keep the first MATLAB session tightly tied to broadcast engineering language:</p>
+<ul>
+<li>frequency means cycles per second, not “how compressed the graph looks”</li>
+<li>amplitude means signal level, not “height because MATLAB drew it that way”</li>
+<li>sample spacing affects what can be seen and reconstructed</li>
+</ul>
+<h2 id="good-first-questions">Good First Questions</h2>
+<ul>
+<li>What changes when frequency doubles but amplitude stays fixed?</li>
+<li>What changes when amplitude doubles but frequency stays fixed?</li>
+<li>Why can two plots look similar over a short window but represent very different frequencies?</li>
+<li>What is lost when sample spacing becomes too large?</li>
+</ul>
+<h2 id="bridge-to-later-weeks">Bridge To Later Weeks</h2>
+<p>This tutorial should feed directly into later teaching on:</p>
+<ul>
+<li><a href="../../concepts/signal-noise-and-distortion/" title="concepts/signal-noise-and-distortion">concepts/signal-noise-and-distortion</a></li>
+<li><a href="../../concepts/transmission-line-behaviour/" title="concepts/transmission-line-behaviour">concepts/transmission-line-behaviour</a></li>
+<li>modulation, multiplexing, and spectrum analysis</li>
+</ul>
+<h2 id="matlab-follow-up">MATLAB Follow-Up</h2>
+<p>After the introductory tutorial, students should quickly progress to:</p>
+<ul>
+<li>noisy sine-wave comparisons</li>
+<li>pulse propagation examples</li>
+<li>balanced vs unbalanced transmission examples</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../lectures/week-01-signals-companion/" class="btn btn-neutral float-left" title="Week 1 Signals Companion"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../topics/teaching-strategy-matlab-first-year/" class="btn btn-neutral float-right" title="Why We Use MATLAB">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../lectures/week-01-signals-companion/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../topics/teaching-strategy-matlab-first-year/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

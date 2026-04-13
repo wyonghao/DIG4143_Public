@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Signal Noise And Distortion - DIG4143 Teaching Wiki</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Signal Noise And Distortion";
+        var mkdocs_page_input_path = "concepts\\signal-noise-and-distortion.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> DIG4143 Teaching Wiki
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../wiki-index/">Wiki Index</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Week 3</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../../lectures/week-03-electrics-shielding-connectors-companion/">Lecture Companion</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../tutorials/tutorial-03-signals-transmission-revision/">Tutorial Companion</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../demos/balanced-audio-and-ground-loops/">Balanced Audio And Ground Loops</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../microphone-sensitivity-db-spl-and-dbv/">Microphone Sensitivity</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../demos/microphone-sensitivity-db-demo/">Microphone Demo</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../balanced-lines-shielding-and-phantom-power/">Balanced Lines</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Signal Noise And Distortion</a>
+    <ul class="current">
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../transmission-line-behaviour/">Transmission Line Behaviour</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Earlier Weeks</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../lectures/week-01-signals-companion/">Week 1 Signals Companion</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../tutorials/tutorial-00-matlab-and-signals/">Tutorial 00 MATLAB And Signals</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Teaching Notes</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../topics/teaching-strategy-matlab-first-year/">Why We Use MATLAB</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../demos/matlab-signal-visualisation-roadmap/">MATLAB Signal Visualisation Roadmap</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Admin</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../about/">About This Wiki</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../home/">Shortcut</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../raw-sources/">Raw Sources</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../log/">Log</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">DIG4143 Teaching Wiki</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Week 3</li>
+      <li class="breadcrumb-item active">Signal Noise And Distortion</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="teaching-aim">Teaching Aim</h2>
+<p>Separate three ideas that students often blur together: the wanted signal, added
+noise, and waveform-changing distortion.</p>
+<h2 id="core-distinctions">Core Distinctions</h2>
+<ul>
+<li>Signal: the wanted variation carrying information.</li>
+<li>Noise: unwanted random or quasi-random addition to that signal.</li>
+<li>Distortion: change in waveform shape caused by a system that is not behaving ideally.</li>
+</ul>
+<h2 id="why-this-matters">Why This Matters</h2>
+<p>If students do not separate noise from distortion, they struggle later with:</p>
+<ul>
+<li>SNR</li>
+<li>clipping</li>
+<li>harmonic distortion</li>
+<li>intermodulation</li>
+<li>equalisation and channel compensation</li>
+</ul>
+<h2 id="matlab-visual-strategy">MATLAB Visual Strategy</h2>
+<p>Best classroom sequence:</p>
+<ol>
+<li>Plot a clean sine wave.</li>
+<li>Add random noise and show that the underlying waveform still exists.</li>
+<li>Clip the same sine wave and show that new shape and new harmonics appear.</li>
+<li>Compare spectra so the difference is not just descriptive.</li>
+</ol>
+<h2 id="short-teaching-line">Short Teaching Line</h2>
+<p>Noise is added to the signal. Distortion changes the signal.</p>
+<h2 id="linked-pages">Linked Pages</h2>
+<ul>
+<li><a href="../../lectures/week-01-signals-companion/" title="lectures/week-01-signals-companion">lectures/week-01-signals-companion</a></li>
+<li><a href="../../demos/matlab-signal-visualisation-roadmap/" title="demos/matlab-signal-visualisation-roadmap">demos/matlab-signal-visualisation-roadmap</a></li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../balanced-lines-shielding-and-phantom-power/" class="btn btn-neutral float-left" title="Balanced Lines"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../transmission-line-behaviour/" class="btn btn-neutral float-right" title="Transmission Line Behaviour">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../balanced-lines-shielding-and-phantom-power/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../transmission-line-behaviour/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
