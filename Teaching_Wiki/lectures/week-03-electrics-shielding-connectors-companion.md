@@ -1,6 +1,6 @@
 ---
 type: lecture
-title: "Week 03 Electrics, Shielding, and Connectors"
+title: "Session 03 Electrics, Shielding, and Connectors"
 week: 3
 tags: [electrics, shielding, grounding, balanced-audio, connectors, phantom-power, sdi, aes3]
 sources: ["3 - Electrics, Shielding, Connectors_BB_2026.pdf"]

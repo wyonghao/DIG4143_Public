@@ -1,6 +1,6 @@
 ---
 type: lecture
-title: "Week 01 Signals Companion"
+title: "Session 01 Signals Companion"
 week: 1
 tags: [signals, channels, bandwidth, noise, matlab, broadcasting]
 sources: ["1 - Signals_BB Lecture Notes Enhanced.md", "1 - Signals_BB_2026.pdf", "1 - Signals_BB Lecture Notes Enhanced.pdf"]
@@ -44,7 +44,7 @@ companion notes should repeatedly connect:
 
 ## MATLAB Priority
 
-Week 1 is already strong enough to support live MATLAB-led teaching.
+Session 1 is already strong enough to support live MATLAB-led teaching.
 
 Recommended sequence:
 - plot a clean pulse and then a bandwidth-limited version

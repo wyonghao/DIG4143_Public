@@ -50,7 +50,7 @@ Keep the first MATLAB session tightly tied to broadcast engineering language:
 - Why can two plots look similar over a short window but represent very different frequencies?
 - What is lost when sample spacing becomes too large?
 
-## Bridge To Later Weeks
+## Bridge To Later Sessions
 
 This tutorial should feed directly into later teaching on:
 

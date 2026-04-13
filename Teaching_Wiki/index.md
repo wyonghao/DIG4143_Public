@@ -8,15 +8,15 @@ demos that make the engineering ideas easier to see.
 
 ## Start Here
 
-- [Week 3 lecture companion](lectures/week-03-electrics-shielding-connectors-companion.md)
-- [Week 3 tutorial companion](tutorials/tutorial-03-signals-transmission-revision.md)
+- [Session 3 lecture companion](lectures/week-03-electrics-shielding-connectors-companion.md)
+- [Session 3 tutorial companion](tutorials/tutorial-03-signals-transmission-revision.md)
 - [Microphone sensitivity guide](concepts/microphone-sensitivity-db-spl-and-dbv.md)
 - [MATLAB microphone demo](demos/microphone-sensitivity-db-demo.md)
 - [Wiki index](wiki-index.md)
 
 ## Current Focus
 
-The current focus is Week 3:
+The current focus is Session 3:
 
 - grounding
 - shielding
@@ -27,5 +27,5 @@ The current focus is Week 3:
 
 ## How To Read This Wiki
 
-Start with the week page, then follow the concept and demo links.
+Start with the session page, then follow the concept and demo links.
 If you want the full page list, open the wiki index.

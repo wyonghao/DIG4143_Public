@@ -1,6 +1,6 @@
 # DIG4143 Teaching Wiki Index
 
-## Week 3
+## Session 3
 
 ### Lecture Companion
 - [[lectures/week-03-electrics-shielding-connectors-companion]] — Why grounding, shielding, balanced audio, phantom power, and connector choice matter in real broadcast systems.
@@ -21,7 +21,7 @@
 
 ## Other Pages
 
-### Earlier Weeks
+### Earlier Sessions
 - [[lectures/week-01-signals-companion]] — Companion notes for the earlier signals lecture.
 - [[tutorials/tutorial-00-matlab-and-signals]] — Introductory MATLAB and signal-plotting companion.
 

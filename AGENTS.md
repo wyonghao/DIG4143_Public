@@ -17,9 +17,9 @@ Read AGENTS.md, Teaching_Wiki/index.md, Teaching_Wiki/raw-sources.md, and the to
 This repository contains public teaching materials for DIG4143.
 
 The wiki's purpose is to maintain a persistent teaching companion that:
-- extends weekly lecture content into fuller explanations
+- extends blocked teaching session content into fuller explanations
 - expands tutorial questions into guided teaching material
-- maps concepts across the module instead of treating each week in isolation
+- maps concepts across the module instead of treating each session in isolation
 - foregrounds MATLAB demos and visualisations so students can see signal, noise,
   transmission, modulation, and channel behaviour more clearly
 
@@ -59,7 +59,7 @@ Teaching_Wiki/
   index.md
   log.md
   raw-sources.md
-  lectures/     -> extended weekly lecture companions
+  lectures/     -> extended session lecture companions
   tutorials/    -> expanded tutorial walkthroughs and question support
   demos/        -> MATLAB demo guides, run notes, and interpretation pages
   concepts/     -> reusable concept pages such as SNR, bandwidth, modulation
@@ -107,11 +107,11 @@ When the user asks to ingest a lecture, tutorial, PDF, DOCX, or MATLAB file:
 6. Append an entry to `Teaching_Wiki/log.md`.
 7. Update the source status in `Teaching_Wiki/raw-sources.md`.
 
-### Extend A Week
+### Extend A Session
 
-When the user asks to improve a teaching week:
+When the user asks to improve a teaching session:
 
-1. Read the week's lecture notes, tutorial file, and any related demo code.
+1. Read the session's lecture notes, tutorial file, and any related demo code.
 2. Create or update:
    - one lecture companion page
    - one tutorial support page if needed
@@ -136,7 +136,7 @@ When answering a question:
 When asked to health-check the wiki:
 
 1. Look for orphan pages, duplicated concepts, stale pages, and weak cross-links.
-2. Check whether each taught week has a lecture companion and, where useful, a demo.
+2. Check whether each taught session has a lecture companion and, where useful, a demo.
 3. Check whether MATLAB opportunities are missing from signals, transmission,
    modulation, noise, and measurement topics.
 4. Produce a short markdown lint report.

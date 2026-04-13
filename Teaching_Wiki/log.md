@@ -51,3 +51,13 @@ Pages updated:
 - demos/microphone-sensitivity-db-demo.md
 - topics/teaching-strategy-matlab-first-year.md
 - assets/sources/
+
+## [2026-04-13] structure | Session-based terminology adopted
+Pages updated:
+- AGENTS.md
+- mkdocs.yml
+- index.md
+- wiki-index.md
+- lectures/week-01-signals-companion.md
+- lectures/week-03-electrics-shielding-connectors-companion.md
+- tutorials/tutorial-00-matlab-and-signals.md
