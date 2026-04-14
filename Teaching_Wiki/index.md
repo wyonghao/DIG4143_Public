@@ -8,6 +8,7 @@ demos that make the engineering ideas easier to see.
 
 ## Start Here
 
+- [Session 4 lecture companion](lectures/week-04-modulation-multiplexing-companion.md)
 - [Session 3 lecture companion](lectures/week-03-electrics-shielding-connectors-companion.md)
 - [Session 3 tutorial companion](tutorials/tutorial-03-signals-transmission-revision.md)
 - [Microphone sensitivity guide](concepts/microphone-sensitivity-db-spl-and-dbv.md)
@@ -16,14 +17,13 @@ demos that make the engineering ideas easier to see.
 
 ## Current Focus
 
-The current focus is Session 3:
+The current focus is Session 4:
 
-- grounding
-- shielding
-- balanced and unbalanced lines
-- phantom power
-- microphone sensitivity
-- `dB SPL` and `dBV`
+- baseband and carrier transmission
+- AM, FM, and phase-based modulation
+- sidebands and modulation index
+- FDM, TDM, and statistical multiplexing
+- PSK, QAM, and constellation diagrams
 
 ## How To Read This Wiki
 

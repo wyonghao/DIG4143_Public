@@ -9,7 +9,7 @@
 | pending | lecture PDF | `2026Teaching/1 - Signals_BB Lecture Notes Enhanced.pdf` |
 | pending | lecture PDF | `2026Teaching/2 - Transmission Media_DM.pdf` |
 | done | lecture PDF | `2026Teaching/3 - Electrics, Shielding, Connectors_BB_2026.pdf` |
-| pending | lecture PDF | `2026Teaching/4 - Modulation, Multiplexing 2026.pdf` |
+| done | lecture PDF | `2026Teaching/4 - Modulation, Multiplexing 2026.pdf` |
 | done | tutorial | `2026Teaching/Tut 0 Introduce to MATLAB programming and Signal.docx` |
 | pending | tutorial | `2026Teaching/Tutorial 1 - Freq, wavelength, period, bandwidth 2026.docx` |
 | pending | tutorial | `2026Teaching/Tutorial 2 - cables, conductors.docx` |

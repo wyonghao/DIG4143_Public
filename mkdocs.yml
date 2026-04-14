@@ -12,6 +12,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Wiki Index: wiki-index.md
+  - Session 4:
+      - Lecture Companion: lectures/week-04-modulation-multiplexing-companion.md
   - Session 3:
       - Lecture Companion: lectures/week-03-electrics-shielding-connectors-companion.md
       - Tutorial Companion: tutorials/tutorial-03-signals-transmission-revision.md

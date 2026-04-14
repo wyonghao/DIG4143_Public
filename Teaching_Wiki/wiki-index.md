@@ -1,5 +1,10 @@
 # DIG4143 Teaching Wiki Index
 
+## Session 4
+
+### Lecture Companion
+- [[lectures/week-04-modulation-multiplexing-companion]] — Why carriers, sidebands, multiplexing methods, and digital constellations belong in one engineering story.
+
 ## Session 3
 
 ### Lecture Companion

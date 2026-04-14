@@ -61,3 +61,16 @@ Pages updated:
 - lectures/week-01-signals-companion.md
 - lectures/week-03-electrics-shielding-connectors-companion.md
 - tutorials/tutorial-00-matlab-and-signals.md
+
+## [2026-04-13] ingest | Session 4 modulation and multiplexing lecture
+Pages created:
+- lectures/week-04-modulation-multiplexing-companion.md
+Pages updated:
+- index.md
+- wiki-index.md
+- raw-sources.md
+- assets/sources/4 - Modulation, Multiplexing 2026.pdf
+
+## [2026-04-14] refine | Session 4 lecture companion expanded with key questions
+Pages updated:
+- lectures/week-04-modulation-multiplexing-companion.md
