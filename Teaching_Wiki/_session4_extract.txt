@@ -1,0 +1,790 @@
+
+
+===== PAGE 1 =====
+
+Broadcast Technology UG1DIG4143
+Broadcast Technology UG1Modulation, Multiplexing
+
+===== PAGE 2 =====
+
+Broadcast Technology UG1DIG4143
+The Playout System(a quick revision from the previous session)
+
+===== PAGE 3 =====
+
+Broadcast Technology UG1DIG4143
+Information Transmission, Signal Encoding
+Information
+Source Coding
+Channel Coding
+Modulation
+Interference
+Demodulation
+Channel Decoding
+Information
+Source Decoding
+bit errors
+Transmission Link
+Source Information•coded data in as small space as possible (compressed, etc)
+•signal received –reverse processes
+•transmission is subject to noise interference•aim –to approach the Shannon Limit
+Channel coding•appropriate error protection method... depends on channel characteristics•modulation on to carrier
+CrosstalkCrosstalkjitterNOISE
+NOISENOISE
+
+===== PAGE 4 =====
+
+Broadcast Technology UG1DIG4143
+Video PacketsAudio PacketsData PacketsPSMuxTS MuxMuxadaptation, scramblingError CorrectionBlock CodeInterleaving(against long errors)FECConvolutionalcoding
+Interleaving(against burst errors)Mapper(IQ symbols)FrameadaptationsymbolsPilot, TPS signalsOFDMModulationGuard interval insertionDAC for Tx
+DVB Transmission PlayoutSystem
+Antenna,Cable, Sat uplink
+(Based on DVB-T, but –C, -S and –H are similar)
+QPSK, QAM, etcBlocks (1512 –6048 sy/block)of symbols →frames (68 blocks)(4frames =superframe)
+Transmission parameterscarriers, 2k –32k (for T2channel b/w = 1.7 to 10MHz
+includes cyclic prefix
+FEC –Outer …….FEC –Inner
+
+===== PAGE 5 =====
+
+Broadcast Technology UG1DIG4143
+Inter-Symbol Interference for Modulated DataCausesIn radio: •multipath interference, including atmosphericsOn cables:•transmission line propagation, phase delays, electrical characteristicsImplications on radio and cable:•channel gain variations•signal spreading over a transmission line/path•jitter and other timing issues
+
+===== PAGE 6 =====
+
+Broadcast Technology UG1DIG4143
+Multipath Interference in Radio
++             = +             = 
+Path difference –results in phase difference
+
+===== PAGE 7 =====
+
+Broadcast Technology UG1DIG4143
+Modulation, AM, FM, Phase, (QAM ... later on …) 
+
+===== PAGE 8 =====
+
+Broadcast Technology UG1DIG4143
+Signals -baseband
+time
+voltage
+20kHzfrequency
+voltage
+TIME DOMAIN
+FREQUENCY DOMAIN
+
+===== PAGE 9 =====
+
+Broadcast Technology UG1DIG4143
+Transmission Characteristics; Modulation and Carriers
+•𝜆for a very low frequency [baseband]signal will be large ... so the size of the antenna won’t be practical•Instead, the signal can be shifted to a higher frequency ... using a high frequency carrier•Frequency, amplitude and/or phase of the carrier will be modulated by the message signal ... then radiated through a smaller antenna
+The size of an antenna used for radiation should be proportionalto the wavelengthof the radiated signal
+
+===== PAGE 10 =====
+
+Broadcast Technology UG1DIG4143
+Carrier Waves
+Receiver
+Receiver
+Receiver
+Transmitter
+carrierfrequency a “tuned” to frequency a
+tuned to frequency b
+tuned to frequency c
+
+===== PAGE 11 =====
+
+Broadcast Technology UG1DIG4143
+Receiver
+Receiver
+Receiver
+Transmitter
+“tuned” to frequency a
+tuned to frequency b
+tuned to frequency c
+carrierfrequency a
+carrierfrequency b
+carrierfrequency c
+Carrier Waves
+
+===== PAGE 12 =====
+
+Broadcast Technology UG1DIG4143
+ModulationSports
+News
+Music
+Receiver
+Receiver
+Receiver
+Transmitter
+Sports
+News
+Music
+“tuned” to frequency a
+tuned to frequency b
+tuned to frequency c
+modulated carrierfrequency amodulated carrierfrequency b
+modulated carrierfrequency c
+carrier waveprogram signal
+Modulation
+
+===== PAGE 13 =====
+
+Broadcast Technology UG1DIG4143
+Modulation•To convey a Baseband  signal on a Carriersignal•Necessary to allow a multitude of baseband signals to simultaneously exist 
+•Carrier -sinusoidal y = sin x
+Wavelength = l= 1 cycleFrequency ... f = cycles/second= Hertz, Hz
+
+===== PAGE 14 =====
+
+Broadcast Technology UG1DIG4143
+Signals
+time
+voltage
+20kHz
+voltage
+TIME DOMAIN
+FREQUENCY DOMAIN
+frequency
+
+===== PAGE 15 =====
+
+Broadcast Technology UG1DIG4143
+Signals –transmitting more than one signal on a channel -multiplexing
+20kHz
+20kHz
+voltage
+time
+voltage
+frequency
+
+===== PAGE 16 =====
+
+Broadcast Technology UG1DIG4143
+20kHz20kHz20kHz
+voltage
+frequency
+Signals –transmitting more than one signal on a channel -multiplexing
+
+===== PAGE 17 =====
+
+Broadcast Technology UG1DIG4143
+20kHz20kHz20kHz
+voltage
+frequency
+Signals –multiplexingEach channel needs a separate carrier
+fc1e.g. 200kHzfc2e.g. 222kHzfc3e.g. 244kHzIncludes 2kHz guardband
+
+===== PAGE 18 =====
+
+Broadcast Technology UG1DIG4143
+y = sin x•Carrier -sinusoidal•Carrier parameters can change to convey the baseband signal: Amplitude... Amplitude Modulation -AM
+Frequency… Frequency Modulation-FMPhase… Phase Modulation (PM and many other types)
+Modulation
+
+===== PAGE 19 =====
+
+Broadcast Technology UG1DIG4143
+What Is The Determining Factor For A Carrier Frequency?Basics•The size of an antenna used for radiation should be proportionalto the wavelength of the radiated signalWavelength	𝜆=𝑠𝑝𝑒𝑒𝑑𝑜𝑓𝑤𝑎𝑣𝑒𝑖𝑛𝑓𝑟𝑒𝑒𝑠𝑝𝑎𝑐𝑒×𝑡𝑖𝑚𝑒𝑐𝑦𝑐𝑙𝑒=𝑐×𝜏
+𝑓=1𝜏…𝜆=𝑠𝑝𝑒𝑒𝑑𝑜𝑓𝑤𝑎𝑣𝑒𝑖𝑛𝑓𝑟𝑒𝑒𝑠𝑝𝑎𝑐𝑒𝑓𝑟𝑒𝑞𝑢𝑒𝑛𝑐𝑦𝑜𝑓𝑡ℎ𝑒𝑠𝑖𝑔𝑛𝑎𝑙=𝑐𝑓(	c	is	essentially	speed	of	light	=	3	x	108	ms-1	)
+time
+Amplitude
+One cycle = 𝜏[seconds]  f=!"[Hertz]
+vf   λ
+𝑑=𝑑𝑡.𝑡
+
+===== PAGE 20 =====
+
+Broadcast Technology UG1DIG4143
+•𝜆for a very low frequency signal will be large ... so the size of the antenna won’t be practical
+•Instead, the signal can be shifted to a higher frequency ... using a high frequency carrier
+•Frequency, amplitude and/or phase of the carrier will be modulated by the message signal ... then radiated through a smaller antenna
+Receiver•Received signal needs to be demodulated to achieve the original message signal
+What Is The Determining Factor For A Carrier Frequency?
+
+===== PAGE 21 =====
+
+Broadcast Technology UG1DIG4143
+Modulation•To convey a Baseband  signal on a Carriersignal•Necessary to allow a multitude of baseband signals to simultaneously exist 
+•Carrier -sinusoidal y = sin x
+Wavelength = l= 1 cycleFrequency ... f = cycles/second= Hertz, Hz
+
+===== PAGE 22 =====
+
+Broadcast Technology UG1DIG4143
+Analogue Modulation –AM and FM
+
+===== PAGE 23 =====
+
+Broadcast Technology UG1DIG4143
+Amplitude Modulation -AMCarrier Wave
+Audio Signal
+Amplitude Modulated Carrier
+Transmitted AM signal
++
+ê
+
+===== PAGE 24 =====
+
+Broadcast Technology UG1DIG4143
+Audio Programme 
+Carrier Wave Generator
+TransmitterModulator
+ê
+ê
+ê
+ê
+ê
+ê
+Amplitude Modulation
+
+===== PAGE 25 =====
+
+Broadcast Technology UG1DIG4143
+Receiver
+Demodulatorêê
+Audio Stage
+êê
+Amplitude Demodulation
+•Receiver -antenna feeds a circuit tuned (i.e. sympathetic to the frequency of the desired carrier wave).  The modulated carrier wave is retrieved•The demodulator –“tunes in” to the same frequency as the carrier, so retrieves the required baseband signal
+
+===== PAGE 26 =====
+
+Broadcast Technology UG1DIG4143
+Receiver
+Demodulatorêê
+Audio Stage
+êê
+Amplitude Demodulation
+
+
+===== PAGE 27 =====
+
+Broadcast Technology UG1DIG4143
+Noise interference hitstransmitted wave
+… and alters the amplitude of the carrier
+demodulated wave contains noisy spikes
+AM Prone to Noise Interference
+
+===== PAGE 28 =====
+
+Broadcast Technology UG1DIG4143
+Modulation IndexThe ratio of the depth of modulation
+carrier voltage = Vc
+carrier
+modulating signal
+modulated carrier
+signal voltage = Vs
+Modulation Index = m = c
+s
+V
+V
+
+===== PAGE 29 =====
+
+Broadcast Technology UG1DIG4143
+Modulation IndexHere, modulating signal Vsis half the magnitude of carrier voltage Vci.e. Carrier Voltage = Vc… and   Vs= 0.5 x Vc∴ m = Vs/ Vc=  0.5v/ v= 0.5  (or 50%)
+Here, the modulating signal Vsis the same magnitude as the carrier Vc;  i.e. Vs= Vc∴ m = Vs/ Vc= 1  (or 100%)note -the modulated wave reduces to zero
+
+===== PAGE 30 =====
+
+Broadcast Technology UG1DIG4143
+Modulation IndexHere the modulation index is 0.25-giving a fairly shallow modulated carrier wave-signal strength is low compared to noise (S/N ratio)
+Here the modulation index is 1.5 -giving an over modulated carrier
+
+===== PAGE 31 =====
+
+Broadcast Technology UG1DIG4143
+Amplitude ModulationCarrier Wave
+Audio Signal
+Amplitude Modulated Carrier
+Transmitted AM signal
++
+ê
+Carrier Signal = vc= Vcsinωct; ωc=2πfcwhere fc= carrier freqModulating Signal = vs = Vssinωst; ωs=2πfs; where fs= modulation freqSo the voltage of the carrier varies between(Vc+ Vm)  and  (Vc-Vm)Modulation Index =m =Vs/ Vc;      so Vs= m Vc
+vc= (Vc+ Vssinωst) sinωct= Vcsinωct+  Vssinωst. sinωctsince sinωst. sinωct= ½ [cos(ωc–ωs)t -cos(ωc+ ωs)t]thenvc= (Vcsin ωct) + ½ mVccos(ωc–ωs)t -½ mVccos(ωc+ ωs)t 
+
+===== PAGE 32 =====
+
+Broadcast Technology UG1DIG4143
+Amplitude Modulation
+vc= (Vcsin ωct) + ½ mVccos(ωc–ωs)t -½ mVccos(ωc+ ωs)t Carrier      +              USB                -LSB
+fcfc+ freq range of signalfc-freq range of signal
+PowerLSB = Lower Side BandUSB = Upper Side Band
+
+===== PAGE 33 =====
+
+Broadcast Technology UG1DIG4143
+AM Frequency Spectrum -SidebandsAM process produces a spectrum containing the carrier and two sidebands of frequencies related to the modulating signale.g.:
+e.g.  modulating signal is between 100Hz and 8KHz, and carrier freq = 600KHz (=600,000Hz)Then -USB extends upfrom  [600,000 + 100]Hz to    [600,000 + 8,000]Hz = 600.1KHz up to 608KHz LSB extends downfrom  [600,000 –100]Hz    to    [600,000 –8,000]Hz= 599.9KHz down to 592KHz
+fc
+fc+ freq range of signalfc-freq range of signal
+PowerLSB = Lower Side BandUSB = Upper Side Band
+
+===== PAGE 34 =====
+
+Broadcast Technology UG1DIG4143
+AM Frequency Spectrum -Sidebands
+Carrier frequencyfc = 5KHz
+Signal frequency, fm= 500Hz
+Sideband at fc-fm= 5KHz-500Hz = 4.5KHzSideband at fc+fm= 5KHz+500Hz = 5.5KHz
+
+===== PAGE 35 =====
+
+Broadcast Technology UG1DIG4143
+Frequency Modulation
+UnmodulatedCarrier Wave
+Audio Signal
+Frequency Modulated Wave
+i.e. carrier freq increases with audio signal amplitude
+
+===== PAGE 36 =====
+
+Broadcast Technology UG1DIG4143
+Received signal S(t)
+Zero Crossing Detection
+Fully rectified signalPulse GeneratorLow Pass FilterRegenerator ThresholdRegenerated basebandsignal Sm(t)
+Limited and filteredsignal 
+FM Demodulation
+
+===== PAGE 37 =====
+
+Broadcast Technology UG1DIG4143
+Frequency Modulation –Modulation IndexOften denoted as βindicates how much the frequency of the carrier will deviate in relation to the frequency of the modulating signal
+i.e.
+β=           =  the change of frequency / frequency of the carrier
+e.g.  β=5 means the frequency of the modulated carrier will deviate by 5xthe modulating signal
+e.g. if freqrange of the signal is 20Hz to 15KHz  (i.e. typical FM spec)then the frequency of the carrier will deviate by 100Hz up to 75KHz 
+mffD
+
+===== PAGE 38 =====
+
+Broadcast Technology UG1DIG4143
+Transmitted FM signal
+Noise-hit FM signal
+... however -frequency of signal is still intact:Since we are only interested in the frequency of the carrier, the original audio signal can still be recovered
+Amplitude of signal is corrupted...
+Frequency Modulation -Immunity to noise
+
+===== PAGE 39 =====
+
+Broadcast Technology UG1DIG4143
+SubcarriersAn example of subcarrier –consider an AM transmission: 
+fcfreq range of signal
+PowerSide Band
+A frequency (i.e. a tone) modulated on to the main carrier… becomes a subcarrier 
+fcfreq range of signal
+PowerSide Band
+Data (in sidebands) modulated onto the subcarrier 
+This example shows AM modulation on the subcarrier … but could be other forms of modulation•phase (PM)•frequency (FM)•etc
+so, in effect we have two levels of modulation (at least)
+
+===== PAGE 40 =====
+
+Broadcast Technology UG1DIG4143
+Subcarriers …?? 
+Total data to be transmitted
+Intersymbol interference due to multipath reflectionsSolution: multiple carriers
+But these are separate carriers –not subcarriers modulated onto one carrier… but they are often referred to as “subcarriers”
+freq
+
+===== PAGE 41 =====
+
+Broadcast Technology UG1DIG4143
+Spectrum of an Analogue PAL TV Transmission
+
+===== PAGE 42 =====
+
+Broadcast Technology UG1DIG4143
+•SSB produced by filtering one of the sidebands, usually the lower (LSB) •Carrier is also often reduced or removed entirely (suppressed)= single sideband suppressed carrier (SSBSC)•No information is lost in the process•Radio frequency transmission is now concentrated in a single sideband∴ effective power output is greater than in normal AM (since the carrier and redundant sideband account for well over half of the power output of an AM transmitter)•Requires special reception to demodulate
+Sidebands –Single, Vestigial
+
+
+===== PAGE 43 =====
+
+Broadcast Technology UG1DIG4143
+•sideband that has been only partly cut off or suppressed•to reduce the large bandwidth of the original video signal•also be used in digital transmission, such as the ATSC standardized 8-VSB•by the RF and IF filters
+Vestigial Sideband (VSB)
+•For video -SSB would be desirable... but the video signal has significant low frequency content, plus square sync pulses... so some of the lower sideband is retained •VSB -full upper sideband of bandwidth transmitted = 4MHz... but only 1.25MHz of the lower sideband is transmitted, plus the carrier•effectively makes the system AM at low modulation frequencies and SSB at high modulation frequencies•absence of the lower sideband components at high frequencies must be compensated for, and this is done by the RF and IF filters
+
+
+===== PAGE 44 =====
+
+Broadcast Technology UG1DIG4143
+Vision Carrier1.25MHz(AM / VSB)
+Colour Sub-Carrier(suppressed)5.68MHzChroma coding (QAM)Sound Centre Freq6.75MHz(FM)
+7.0MHz
+PAL Signal Spectrum
+freq
+Full SidebandVestigial Sideband
+
+===== PAGE 45 =====
+
+Broadcast Technology UG1DIG4143
+Broadcast Channels Frequency Spacing
+475MHz 850MHz
+7Mhz TV Channel 
+8Mhz Spacing
+Ch21 Ch6848 channels
+
+===== PAGE 46 =====
+
+Broadcast Technology UG1DIG4143
+http://www.ukfree.tv
+
+
+===== PAGE 47 =====
+
+Broadcast Technology UG1DIG4143
+Multiplexing:FDM, TDMStatisticalMultiplexing: combination of signals to transmit on a common bearer / channel
+
+===== PAGE 48 =====
+
+Broadcast Technology UG1DIG4143
+•Each signal is modulated onto a different frequency (subcarrier)Multiplexing -Frequency Division Multiplexing (FDM) 
+“baseband”signalsi.e. unmodulatedoriginal signal
+f1 f2
+
+===== PAGE 49 =====
+
+Broadcast Technology UG1DIG4143
+•Multiple signals are interleaved (in bits or blocks) over timeMultiplexing -Time Division Multiplexing (TDM) 
+Data streams divided into frames
+Frames divided into time slotsEach user is allocated one time slot
+Time slots contain data with guard period if needed for synchronisation
+1342
+
+===== PAGE 50 =====
+
+Broadcast Technology UG1DIG4143
+101100110100100110010001010100101010100101 100100010100100101010010101010010101001001010100101
+Time Division Multiplex4kHz voice sampled at 8kHz (fs) into 8 bits binary
+e.g. for UK / European E1 Multiplexes: •30 channels of speech into 32 channel frame “Multiplex”•32 channels x 8b x 8kHz = 2.048Mbs-1•(includes 1 channel signalling and 1 channel synchronisation) 
+TS1             TS2            TS3           TS4          TS5                 TS6                    TS7           TS8 …………………………………………………………………. 
+Analogue –Digital:  Samples are dropped into allocated timeslot for each frame
+TS6 previous frameTS6 this frameTS6 next frame
+
+===== PAGE 51 =====
+
+Broadcast Technology UG1DIG4143
+Statistical Multiplexer Input buffer
+Multiplexing -Statistical Multiplexing
+Input buffer
+Input bufferInput buffer
+Output bufferInput buffer
+Source A
+Source B
+Source C
+Source D
+Source E
+Incoming ports: Data blocks arrive asynchronously from variable-rate sources 
+•Input buffers smooth fluctuation in input data rates•Headers containing addresses and other information are added to the data blocks –to form packets•Packets are then fed to the output buffer
+Outgoing Port:Packets are placed on the outgoing channel
+
+===== PAGE 52 =====
+
+Broadcast Technology UG1DIG4143
+Multiplexing -Statistical Multiplexing
+e.g. DVB multiplex: 
+EndFlagAddress FieldControl FieldInformation PayloadError ControlStartFlag
+Packet format: Control, management and content assigned into fields
+
+===== PAGE 53 =====
+
+Broadcast Technology UG1DIG4143
+Dynamic capacity allocation•Variable Bit Rate –VBR•one channel capacity reallocated to meet immediate service needs of other channels
+Statistical Multiplexing
+http://igorfuna.com/dvb-t/slovenia/multiplex-a-usage-chart
+•allow additional elementary bit streams to be added at the input of the multiplexer ... or allow elementary bit streams to be multiplexed at a second stage
+
+===== PAGE 54 =====
+
+Broadcast Technology UG1DIG4143
+WDM –Wave Division MultiplexingA number of multiplexes (each of many channels) are carried on one fibre•Each multiplex is a string of data•each on it’s own wavelength•Uses single mode fibre
+Sources Receivers
+Fibre Optic 
+
+===== PAGE 55 =====
+
+Broadcast Technology UG1DIG4143
+Modulation for Digital Data
+
+===== PAGE 56 =====
+
+Broadcast Technology UG1DIG4143
+Modulation for Digital Dataobjective:We need to transmit a digital file of   00010101100110101000101010100101100110101…
+•can’t transmit “neat” digital 1’s and 0’s from a transmitter•(or receive them at a receiver)
+•transmission technologies operate only on analogue signals •we also need to retain the carrier frequency concept to allow for many stations
+•so carry 1’s and 0’s on analogue signals:
+1     0      1       1      0      0       1 
+1 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0 1 1 0 0 1
+… often at hundreds of Mbits/sPO
+
+
+===== PAGE 57 =====
+
+Broadcast Technology UG1DIG4143
+7.0MHz
+e.g: Analogue TV … to Digital TV
+frequency
+AnalogueTV Signal Spectrum
+Frequency spectrum (range) for Analogue TV broadcast:•video signal (luminance + colour)•audio signal
+
+===== PAGE 58 =====
+
+Broadcast Technology UG1DIG4143
+Broadcast Channels Frequency Spacing
+475MHz 850MHz
+7Mhz TV Channel 
+8Mhz Spacing
+Ch21 Ch6848 channels
+UHF band
+
+===== PAGE 59 =====
+
+Broadcast Technology UG1DIG4143
+UHF TV in the Electromagnetic Spectrum
+
+===== PAGE 60 =====
+
+Broadcast Technology UG1DIG4143
+http://www.ukfree.tv/txdetail.php?a=SK113003
+
+
+===== PAGE 61 =====
+
+Broadcast Technology UG1DIG4143
+475MHz 850MHz
+Ch21 Ch6848 channels
+
+
+===== PAGE 62 =====
+
+Broadcast Technology UG1DIG4143
+1           0          1         1          0         0         1tDigital Data… is modulated on to a
+Analogue Carrier
+180      180      0        180        0        180Phase Coherent
+90        270      270      90        90      270Differential
+Digital Data on Analogue Carrier e.g. Phase Shift Keying (PSK)
+Binary PSK (there’s various formats):
+
+===== PAGE 63 =====
+
+Broadcast Technology UG1DIG4143
+The Transmitted Signal
+•Shown here –8 QAM•i.e. eight digital codes can be transmitted:•000, 001, 010, 011, 100, 101, 110, 111
+•So transmit the signal 000110001111:…break it into the groups of codes available 000110001111
+
+===== PAGE 64 =====
+
+Broadcast Technology UG1DIG4143
+Digital Data
+Carrier Wave Generator
+TransmitterModulator
+ê
+ê
+ê
+ê
+ê
+ê
+Digital Transmission
+ReceiverêData retrieval, etc
+Receiver tunes into carrier, detects phase changes, retrieves data
+
+
+===== PAGE 65 =====
+
+Broadcast Technology UG1DIG4143
+Inter-Symbol Interference for Modulated DataCauses•multipath interference, including atmospherics•channel gain variations•signal spreading over a transmission line•jitter and other timing issues
+
+===== PAGE 66 =====
+
+Broadcast Technology UG1DIG4143
+Inter-Symbol Interference for Modulated Data
++             = +             = 
+Path difference –results in phase difference
+
+===== PAGE 67 =====
+
+Broadcast Technology UG1DIG4143
+Symbol nSymbol n+1Symbol n+2Symbol n+3Symbol n+4Symbol n+5Symbol nSymbol n+1Symbol n+2Symbol n+3Symbol n+4Symbol n+5
+Path 1Path 2
+Path 1+2echo delay time
+intersymbolinterference
+Inter-Symbol Interference for Modulated Data
+
+===== PAGE 68 =====
+
+Broadcast Technology UG1DIG4143
+
+
+===== PAGE 69 =====
+
+Broadcast Technology UG1DIG4143
+Advanced: QAM (later in the Course)
+
+===== PAGE 70 =====
+
+Broadcast Technology UG1DIG4143
+0°…… 90°……180°..…270°…360°
+The Carrier for Digital –Still a Sinusoidal Wave
+Carrier wavee.g. for Digital TerriestrialTV = 475 –850 MHz…  for Bluetooth = 2.4GHz…for Wifi= 2.4GHz and 5GHz…for DSL broadband –many frequencies (OFDM)
+
+===== PAGE 71 =====
+
+Broadcast Technology UG1DIG4143
+90°phase change (advanced)270°phase change(advanced)
+Phase Changes In A Sinusoidal Wave
+0°…… 90°……180°..…270°…360°Changes in phase (and amplitude) of a carrier can be used to denote digital code informatione.g.+90°= “1”; +270 °= “0”(but it gets more sophisticated than that!)
+
+===== PAGE 72 =====
+
+Broadcast Technology UG1DIG4143
+90°phase change
+Phase Changes In A Sinusoidal Wave
+0°…… 90°……180°..…270°…360°
+•Signal was to be transmitted here … •But it has been moved forward (advanced)  by 90°
+90°
+
+===== PAGE 73 =====
+
+Broadcast Technology UG1DIG4143
+90°
+0°180°
+270°
+90°phase advance270°phase advance
+Constellation DiagramsA graphical representation of digital codes corresponding to amplitude and phase-change in the carrier signal 
+e.g. a signal with 90°and 270°phase changes:
+
+===== PAGE 74 =====
+
+Broadcast Technology UG1DIG4143
+Amplitude Changes –Constellation Diagram
+0°………………90°…………….180°……………..270°…………….360°90°
+0°180°
+270°
+i.e. red wave increases to twice the amplitude of green, but is still in phase at change
+… an additional way to convey digital coded information
+
+===== PAGE 75 =====
+
+Broadcast Technology UG1DIG4143
+Phase and Amplitude Changes
+0°………………90°…………….180°……………..270°…………….360°90°
+0°180°
+270°
+i.e. red wave is half the green amplitude, and has advanced by 90°
+
+===== PAGE 76 =====
+
+Broadcast Technology UG1DIG4143
+1
+Decision Thresholds
+0°180°0
+Constellation Diagrams
+•Two phase changes -90°& 270°•allows intelligence –i.e. binary information –to be defined in these carrier changes •two changes in state –allows two coded bits: 1 & 0
+270
+90°
+
+
+===== PAGE 77 =====
+
+Broadcast Technology UG1DIG4143
+01
+Decision Thresholds
+0°180°
+Constellation Diagrams
+11100100
+90°
+0°
+270°
+180°
+Two phase changes -90°& 270°i.e. two changes in state, allows two coded bits: 1 & 0
+Four phase changes -45°, 135 °, 225 °, 315 °i.e. four changes in state, allows two coded bits per symbol: 00, 01, 10, 11
+Problem: The receiver has to detect smaller phase changes
+270
+90°
+
+
+===== PAGE 78 =====
+
+Broadcast Technology UG1DIG4143
+11
+10
+01
+00
+90
+0
+270
+180
+If the phase change falls within this range, it represents a signal “01”i.e. a fairly wide decision threshold
+Constellation Diagrams
+
+===== PAGE 79 =====
+
+Broadcast Technology UG1DIG4143
+QAM –QuadratureAmplitude Modulation 
+90
+0
+270
+180
+16-QAM•16 decision points•4 coded bits per symbol
+Used in Cable TV, IPTV, Satellite TV, WiFi...  most digital transmisions
+
+===== PAGE 80 =====
+
+Broadcast Technology UG1DIG4143
+16-QAM
+90
+0
+270
+180
+DecisionThresholds
+Vector: Length = AmplitudeAngle = Phase16-QAM•16 decision points•4 coded bits per symbol
+0000000100100011
+0100010101100111For example
+DecisionThresholds
+Phase change can fall within this (small) range 
+
+===== PAGE 81 =====
+
+Broadcast Technology UG1DIG4143
+270
+DecisionThresholds
+90
+018064-QAM•64 decision points•6 coded bits per symbol
+64-QAM
+•More digital bits -more information transmitted •More fragile signal (I.e. than 16QAM)-•will suffer in a poor transmission•results in more messages retransmittedDecision thresholds 
+e.g. a phase/ amplitude shift represented by this point = (say…) “100101”
+
+===== PAGE 82 =====
+
+Broadcast Technology UG1DIG4143
+256-QAM
+256-QAM•256 decision points•8 coded bits per symbol
+e.g. a phase/ amplitude shift represented by this point = (say…) “10010111”
+DecisionThresholds
+90
+0180
+
+===== PAGE 83 =====
+
+Broadcast Technology UG1DIG4143
+16-QAM Potential Errors... due to phase and amplitude variations caused by transmission vaguaries
+Left –ideal reception of signalAbove –more practical reception
+
+===== PAGE 84 =====
+
+Broadcast Technology UG1DIG4143
+The Transmitted Signal
+•Shown here –8 QAM•i.e. eight digital codes can be transmitted:•000, 001, 010, 011, 100, 101, 110, 111
+•So transmit the signal 000110001111:…break it into the groups of codes available 000110001111
+
+===== PAGE 85 =====
+
+Broadcast Technology UG1DIG4143
+
+
+===== PAGE 86 =====
+
+Broadcast Technology UG1DIG4143
