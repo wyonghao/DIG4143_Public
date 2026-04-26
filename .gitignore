@@ -14,9 +14,6 @@ tools/
 
 # Generated extracted content
 2026Teaching/signals_extracted/
-site/
-site_preview/
-site_verify*/
 
 # Logs and temporary files
 *.log
